@@ -8,7 +8,9 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
     <gap:plugin name="cordova-plugin-local-notification" source="npm" />
+
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
